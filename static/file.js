@@ -64,7 +64,7 @@ $(document).ready(() => {
             }
 
             if (file.size >= maxSize) {
-                alert(`上传的文件不能超过${maxSize / 1024 / 1024}MB`);
+                alert(`上传的文件不能超过${maxSize / 2048 / 2048}MB`);
                 return;
             }
 
